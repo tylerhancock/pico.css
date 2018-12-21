@@ -637,6 +637,7 @@ h4, h5, h6,
 p, span, li, a {
   font-weight: 300;
   font-style: normal;
+  line-height: 1.6;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
      -moz-font-smoothing: antialiased;
@@ -645,58 +646,48 @@ p, span, li, a {
 
 .font-small {
   font-size: 16px;
-  line-height: 28px;
   font-weight: normal;
 }
 
 .font-medium {
   font-size: 18px;
-  line-height: 32px;
   font-weight: normal;
 }
 
 .font-large {
   font-size: 16px;
-  line-height: 28px;
   font-weight: normal;
 }
 
 .font-extra-large {
   font-size: 22px;
-  line-height: 36px;
   font-weight: normal;
 }
 
 .font-super-large {
 	font-size: 22px;
-	line-height: 36px;
 	font-weight: normal;
 }
 
 @media (min-width: 360px) {
   .font-small {
 		font-size: 16px;
-		line-height: 28px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-extra-large {
 		font-size: 24px;
-		line-height: 40px;
 		font-weight: normal;
 	}
 	.font-super-large {
 		font-size: 24px;
-		line-height: 40px;
 		font-weight: normal;
 	}
 }
@@ -704,27 +695,22 @@ p, span, li, a {
 @media (min-width: 400px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-extra-large {
 		font-size: 26px;
-		line-height: 44px;
 		font-weight: normal;
 	}
 	.font-super-large {
 		font-size: 26px;
-		line-height: 44px;
 		font-weight: normal;
 	}
 }
@@ -732,27 +718,22 @@ p, span, li, a {
 @media (min-width: 480px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-extra-large {
 		font-size: 32px;
-		line-height: 52px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 32px;
-		line-height: 52px;
 		font-weight: 300;
 	}
 }
@@ -760,27 +741,22 @@ p, span, li, a {
 @media (min-width: 560px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-extra-large {
 		font-size: 34px;
-		line-height: 56px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 34px;
-		line-height: 56px;
 		font-weight: 300;
 	}
 }
@@ -788,27 +764,22 @@ p, span, li, a {
 @media (min-width: 640px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-extra-large {
 		font-size: 36px;
-		line-height: 60px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 36px;
-		line-height: 60px;
 		font-weight: 300;
 	}
 }
@@ -816,27 +787,22 @@ p, span, li, a {
 @media (min-width: 720px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-extra-large {
 		font-size: 36px;
-		line-height: 60px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 38px;
-		line-height: 64px;
 		font-weight: 300;
 	}
 }
@@ -844,27 +810,22 @@ p, span, li, a {
 @media (min-width: 800px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 24px;
-		line-height: 40px;
 		font-weight: normal;
 	}
 	.font-extra-large {
 		font-size: 38px;
-		line-height: 64px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 42px;
-		line-height: 68px;
 		font-weight: 300;
 	}
 }
@@ -872,27 +833,22 @@ p, span, li, a {
 @media (min-width: 960px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 26px;
-		line-height: 44px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 42px;
-		line-height: 68px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 46px;
-		line-height: 76px;
 		font-weight: 300;
 	}
 }
@@ -900,27 +856,22 @@ p, span, li, a {
 @media (min-width: 1120px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 28px;
-		line-height: 48px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 44px;
-		line-height: 72px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 50px;
-		line-height: 84px;
 		font-weight: 300;
 	}
 }
@@ -928,27 +879,22 @@ p, span, li, a {
 @media (min-width: 1280px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 32px;
-		line-height: 52px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 46px;
-		line-height: 76px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 56px;
-		line-height: 92px;
 		font-weight: 300;
 	}
 }
@@ -956,27 +902,22 @@ p, span, li, a {
 @media (min-width: 1440px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 34px;
-		line-height: 56px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 48px;
-		line-height: 80px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 60px;
-		line-height: 100px;
 		font-weight: 300;
 	}
 }
@@ -984,27 +925,22 @@ p, span, li, a {
 @media (min-width: 1600px) {
   .font-small {
 		font-size: 18px;
-		line-height: 32px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 36px;
-		line-height: 60px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 50px;
-		line-height: 84px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 64px;
-		line-height: 104px;
 		font-weight: 300;
 	}
 }
@@ -1012,27 +948,22 @@ p, span, li, a {
 @media (min-width: 1760px) {
   .font-small {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 28px;
-		line-height: 48px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 38px;
-		line-height: 64px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 54px;
-		line-height: 88px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 66px;
-		line-height: 108px;
 		font-weight: 300;
 	}
 }
@@ -1040,27 +971,22 @@ p, span, li, a {
 @media (min-width: 1920px) {
   .font-small {
 		font-size: 22px;
-		line-height: 36px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 28px;
-		line-height: 48px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 42px;
-		line-height: 68px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 56px;
-		line-height: 92px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 68px;
-		line-height: 112px;
 		font-weight: 300;
 	}
 }
@@ -1068,27 +994,22 @@ p, span, li, a {
 @media (min-width: 2080px) {
   .font-small {
 		font-size: 24px;
-		line-height: 40px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 32px;
-		line-height: 52px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 44px;
-		line-height: 72px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 58px;
-		line-height: 96px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 70px;
-		line-height: 116px;
 		font-weight: 300;
 	}
 }
@@ -1096,27 +1017,22 @@ p, span, li, a {
 @media (min-width: 2240px) {
   .font-small {
 		font-size: 24px;
-		line-height: 40px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 32px;
-		line-height: 52px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 46px;
-		line-height: 76px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 60px;
-		line-height: 100px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 74px;
-		line-height: 120px;
 		font-weight: 300;
 	}
 }
@@ -1124,27 +1040,22 @@ p, span, li, a {
 @media (min-width: 2400px) {
   .font-small {
 		font-size: 26px;
-		line-height: 44px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 34px;
-		line-height: 56px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 48px;
-		line-height: 80px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 64px;
-		line-height: 104px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 76px;
-		line-height: 124px;
 		font-weight: 300;
 	}
 }
@@ -1152,27 +1063,22 @@ p, span, li, a {
 @media (min-width: 2560px) {
   .font-small {
 		font-size: 26px;
-		line-height: 44px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 34px;
-		line-height: 56px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 50px;
-		line-height: 84px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 66px;
-		line-height: 108px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 78px;
-		line-height: 128px;
 		font-weight: 300;
 	}
 }
@@ -1180,27 +1086,22 @@ p, span, li, a {
 @media (min-width: 2720px) {
   .font-small {
 		font-size: 28px;
-		line-height: 48px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 36px;
-		line-height: 60px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 54px;
-		line-height: 88px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 68px;
-		line-height: 112px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 80px;
-		line-height: 132px;
 		font-weight: 300;
 	}
 }
@@ -1208,27 +1109,22 @@ p, span, li, a {
 @media (min-width: 2880px) {
   .font-small {
 		font-size: 28px;
-		line-height: 48px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 36px;
-		line-height: 60px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 56px;
-		line-height: 92px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 70px;
-		line-height: 116px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 84px;
-		line-height: 136px;
 		font-weight: 300;
 	}
 }
@@ -1236,27 +1132,22 @@ p, span, li, a {
 @media (min-width: 3040px) {
   .font-small {
 		font-size: 32px;
-		line-height: 52px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 38px;
-		line-height: 64px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 58px;
-		line-height: 96px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 74px;
-		line-height: 120px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 86px;
-		line-height: 140px;
 		font-weight: 300;
 	}
 }
@@ -1264,27 +1155,22 @@ p, span, li, a {
 @media (min-width: 3200px) {
   .font-small {
 		font-size: 32px;
-		line-height: 52px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 38px;
-		line-height: 64px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 60px;
-		line-height: 100px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 76px;
-		line-height: 124px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 88px;
-		line-height: 144px;
 		font-weight: 300;
 	}
 }
@@ -1292,27 +1178,22 @@ p, span, li, a {
 @media (min-width: 3360px) {
   .font-small {
 		font-size: 34px;
-		line-height: 56px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 42px;
-		line-height: 68px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 64px;
-		line-height: 104px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 78px;
-		line-height: 128px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 90px;
-		line-height: 148px;
 		font-weight: 300;
 	}
 }
@@ -1320,27 +1201,22 @@ p, span, li, a {
 @media (min-width: 3520px) {
   .font-small {
 		font-size: 34px;
-		line-height: 56px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 42px;
-		line-height: 68px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 66px;
-		line-height: 108px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 80px;
-		line-height: 132px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 92px;
-		line-height: 152px;
 		font-weight: 300;
 	}
 }
@@ -1348,27 +1224,22 @@ p, span, li, a {
 @media (min-width: 3680px) {
   .font-small {
 		font-size: 36px;
-		line-height: 60px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 44px;
-		line-height: 72px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 68px;
-		line-height: 112px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 84px;
-		line-height: 136px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 96px;
-		line-height: 156px;
 		font-weight: 300;
 	}
 }
@@ -1376,27 +1247,22 @@ p, span, li, a {
 @media (min-width: 3840px) {
   .font-small {
 		font-size: 36px;
-		line-height: 60px;
 		font-weight: normal;
 	}
 	.font-medium {
 		font-size: 44px;
-		line-height: 72px;
 		font-weight: normal;
 	}
 	.font-large {
 		font-size: 70px;
-		line-height: 116px;
 		font-weight: 300;
 	}
 	.font-extra-large {
 		font-size: 86px;
-		line-height: 140px;
 		font-weight: 300;
 	}
 	.font-super-large {
 		font-size: 98px;
-		line-height: 160px;
 		font-weight: 300;
 	}
 }
